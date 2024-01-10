@@ -10,6 +10,16 @@ public class UserApp {
 		User u02 = new Customer("yjs","y2345","이효리",2000);
 		User u03 = new Employee("master","m7788","운영자",500);
 		
+		uArray[0] = u01;
+		uArray[1] = u02;
+		uArray[2] = u03;
+		
+		for(int i =0; i< uArray.length; i++) {
+			uArray[i].showInfo();
+		}
+		
+		Employee e01 = new Employee(500);
+		e01.showSalary();
 		
 	}
 

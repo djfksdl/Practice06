@@ -8,6 +8,13 @@ public class Employee extends User {
 	public Employee() {
 		super();
 	}
+	
+
+	public Employee(int salary) {
+		super();
+		this.salary = salary;
+	}
+
 
 	public Employee(String id, String password, String name, int salary) {
 		super(id, password, name);
@@ -26,6 +33,9 @@ public class Employee extends User {
 	//메소드-일반
 	public void showInfo() {
 		System.out.println("#아이디:" + super.getId() + ", #패스워드:" +super.getPassword() + ", #이름:" + super.getName() +", #월급:" + salary);
+	}
+	public void showSalary() {
+		System.out.println("운영자의 월급은 " +salary +"입니다");
 	}
 	
 	
