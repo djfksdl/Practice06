@@ -15,10 +15,6 @@ public class Shape {
 		System.out.println("생성자 Shape(2) 실행");
 	}
 	
-	//메소드-gs
-	
-	//메소드-일반
-	
 	
 
 }

@@ -9,7 +9,7 @@ public class Triangle extends Shape{
 		System.out.println("생성자 Triangle(0) 실행");
 	}
 	public Triangle(int width, int height) {
-		super("검정","검정");
+		super("검정","검정");//이것때문에 Shape(2)가 실행됨!
 		this.width = width;
 		this.height = height;
 		System.out.println("생성자 Triangle(2) 실행");
